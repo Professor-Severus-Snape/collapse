@@ -1,23 +1,33 @@
-# Домашнее задание к занятию "9. Анимации и CSS"
+[![Webpack CI/CD](https://github.com/professor-severus-snape/collapse/actions/workflows/webpack_ci-cd.yml/badge.svg)](https://github.com/professor-severus-snape/collapse/actions/workflows/webpack_ci-cd.yml)
 
-[![Build status](https://ci.appveyor.com/api/projects/status/a7ca24e8myxe49yu?svg=true)](https://ci.appveyor.com/project/Professor-Severus-Snape/ahj-animation)
+# Виджет сворачиваемого блока (Collapse)
 
-Правила сдачи задания:
-
-1. В рамках этого ДЗ можно использовать любой менеджер пакетов.
-2. Всё должно собираться через Webpack (включая картинки и стили) и выкладываться на Github Pages через Appveyor.
-3. В README.md должен быть размещён бейджик сборки.
-
----
-
-### Collapse
-
-#### Легенда
-
-В рамках реализации большого портала вам необходимо сделать виджет "collapsible"-контейнеров, который может разворачиваться и сворачиваться.
-
-#### Описание
-
-Подобный виджет есть в рамках Bootstrap, но как мы с вами "знаем": "jQuery не нужен", поэтому вам нужно реализовать такой же виджет на чистом JS.
+Небольшой браузерный виджет на **ванильном JavaScript**, позволяющий разворачивать и сворачивать блок контента с плавной CSS-анимацией.  
+Реализован без использования сторонних библиотек.
 
 ![](./pic/collapse.gif)
+
+## Демо
+
+Посмотреть демо виджета можно [здесь](https://professor-severus-snape.github.io/collapse/).
+
+## Возможности
+
+- разворачивание и сворачивание контента по клику
+- плавная анимация изменения высоты блока
+- работа с DOM и обработкой событий
+- реализация UI-компонента на чистом JavaScript
+
+## Технологии
+
+- JavaScript (ES6+, ООП)
+- DOM API
+- CSS (transition)
+- Webpack
+- Babel
+- ESLint (Airbnb config)
+
+## CI/CD
+
+- GitHub Actions - линтинг и сборка проекта (CI)
+- GitHub Pages - автоматический деплой приложения (CD)

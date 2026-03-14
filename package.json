@@ -1,16 +1,15 @@
 {
-  "name": "ahj",
+  "name": "collapse",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
+  "author": "professor-severus-snape",
+  "license": "MIT",
   "scripts": {
     "start": "webpack serve --env development",
-    "build": "webpack --env production",    
+    "build": "webpack --env production",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
-  "author": "professor-severus-snape",
-  "license": "MIT",
   "dependencies": {
     "core-js": "^3.38.1"
   },
